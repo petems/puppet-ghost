@@ -45,8 +45,8 @@ define ghost::blog(
   $socket = false,                       # True will use a socket instead
 
   # Mail settings (see http://docs.ghost.org/mail/)
-  $transport    = '', # Mail transport
-  $fromaddress  = '', # Mail from address
+  $transport    = undef, # Mail transport
+  $fromaddress  = undef, # Mail from address
   $mail_options = {}, # Hash for mail options
   ) {
 
